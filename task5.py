@@ -24,7 +24,7 @@ B = print("Введите координаты точки B")
 xB = int(input("Введите координаты по оси x: "))
 yB = int(input("Введите координаты по оси y: "))
 
-formula = math.sqrt((xB - xA)**2 + (yB - yA)**2)
+formula = round(math.sqrt((xB - xA)**2 + (yB - yA)**2),3)
 result = formula
 
 print()
